@@ -4,6 +4,7 @@ import { Montserrat, Open_Sans } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { GoogleAnalytics } from "@/components/google-analytics"
+import { Analytics } from "@vercel/analytics/next"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -278,6 +279,7 @@ html {
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange={false}>
           <GoogleAnalytics />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
