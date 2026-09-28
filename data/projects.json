@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "dhun-ai",
+    "title": "Dhun AI — Indian Classical Music Composition System",
+    "shortDescription": "An AI-powered system that composes classical Indian music (dhuns) from Hindi lyrics using raag theory, mood detection, and real-time audio synthesis.",
+    "intro": "Dhun AI is a sophisticated full-stack application that bridges ancient Indian classical music theory with modern artificial intelligence. Users input Hindi lyrics and the system — powered by Groq AI for mood detection and a custom raag-based melody engine — generates authentic classical compositions in real time. The platform supports 6 raags, 5 instruments, live audio playback via Web Audio API, and WAV export. Built end-to-end with Next.js, Supabase, and Tone.js, Dhun AI is one of the most culturally unique AI projects in the Indian developer space.",
+    "problem": "Indian classical music (raag-based composition) follows complex mathematical and emotional rules that take decades to master. There is no modern, accessible digital tool that lets everyday users — especially Hindi speakers — experience the process of composing a classical dhun from their own lyrics. Existing AI music tools are Western-centric and completely ignore the depth of Indian raag theory.",
+    "solution": "Built a full-stack AI music composition platform that implements genuine raag theory — aroha, avaroha, vadi, samvadi note rules — combined with Groq AI for lyric mood analysis. The system maps detected emotions to appropriate raags, generates note sequences respecting classical constraints, and synthesizes real-time audio with oscillator-based instrument simulation. Users can compose, visualize, play, and export their dhuns — all in the browser.",
+    "role": "Project Architect, Lead & Lead Developer",
+    "techStack": [
+      "Next.js 16",
+      "React",
+      "TailwindCSS v4",
+      "Tone.js",
+      "Web Audio API",
+      "Groq AI",
+      "Supabase (PostgreSQL)",
+      "shadcn/ui",
+      "Lucide React",
+      "Vercel"
+    ],
+    "challenges": [
+      "Implementing authentic raag theory algorithms — aroha/avaroha patterns, vadi/samvadi note emphasis — mathematically in JavaScript",
+      "Real-time oscillator-based audio synthesis with ADSR envelopes, reverb, and low-pass filters for 5 different Indian instruments",
+      "Integrating Groq AI for Hindi lyric mood detection and mapping emotions to appropriate raags",
+      "Designing a multi-page responsive UI that respects Indian classical aesthetics while staying modern",
+      "Building a complete backend with 10+ API routes for composition, analysis, training, gallery, and export",
+      "WAV file export from browser-rendered Web Audio API output",
+      "Supabase PostgreSQL schema design for raags, instruments, composed songs, and training data with fallback mock data"
+    ],
+    "images": ["/dhun.png"],
+    "repo": "",
+    "liveLink": "Not deployed yet",
+    "featured": true,
+    "date": "2026",
+    "fullstack": true,
+    "duration": "Ongoing",
+    "team": "Team"
+  },
+
+  {
+    "slug": "ai-resume-builder",
+    "title": "AI Resume Builder — AI-Powered ATS Resume SaaS",
+    "shortDescription": "An AI-powered SaaS platform that generates ATS-friendly, role-specific resumes with intelligent content optimization, ATS scanning, and professional PDF export.",
+    "intro": "AI Resume Builder is a full-stack SaaS platform designed to revolutionize how job seekers create resumes. The platform leverages AI to generate ATS-optimized resumes from structured career data — including projects, certifications, skills, and experience. It features AI-assisted resume editing, real-time ATS compatibility scoring, content improvement suggestions, and professional PDF generation. Built with a subscription-based model offering usage credits and premium features.",
+    "problem": "Most job seekers struggle with creating ATS-friendly resumes that pass automated screening systems. Existing resume builders are either too basic (just templates) or too expensive, and none truly leverage AI to optimize content for specific job roles and ATS algorithms. The result: qualified candidates get filtered out before a human ever sees their resume.",
+    "solution": "Building an intelligent resume platform that combines AI-powered content generation with deep ATS knowledge. The system analyzes job descriptions, generates role-specific resume content, scores ATS compatibility in real-time, suggests improvements, and exports pixel-perfect PDFs. Features include project/certification management, resume history, multiple templates, and a credit-based subscription model for sustainable SaaS architecture.",
+    "role": "Full Stack Developer & Architect",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AI APIs",
+      "PDF Generation",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "challenges": [
+      "AI-assisted resume content generation that produces natural, professional language",
+      "Real-time ATS compatibility scoring and analysis engine",
+      "Subscription-based SaaS architecture with usage credits and premium tiers",
+      "Professional PDF generation with multiple template layouts",
+      "User dashboard with resume history, project management, and certification tracking",
+      "Authentication system with secure user data management",
+      "Production-oriented database workflows and scalable architecture"
+    ],
+    "images": ["/ai-resume-builder.png"],
+    "repo": "",
+    "liveLink": "",
+    "featured": true,
+    "date": "2026",
+    "fullstack": true,
+    "duration": "In Development",
+    "team": "Solo",
+    "comingSoon": true,
+    "status": "In Development"
+  },
+
+  {
+    "slug": "code-mentor-ai",
+    "title": "Code Mentor AI",
+    "shortDescription": "AI-driven intelligent platform bridging theoretical coding knowledge with practical application.",
+    "intro": "As the Project Lead, I spearheaded the development of Code Mentor AI, an intelligent platform designed to bridge the gap between theoretical coding knowledge and practical application. I managed a cross-functional team to build an AI-driven assistant that provides real-time guidance, code reviews, and learning paths for aspiring developers.",
+    "problem": "Self-taught developers often struggle with 'tutorial hell,' where they can follow instructions but fail to debug or understand logic in their own unique projects. Existing AI tools are often too generic, whereas human mentorship is expensive and not scalable, leaving a need for a specialized, accessible AI mentor tailored for coding.",
+    "solution": "I led the architectural design and implementation of a centralized AI hub that offers interactive code analysis and personalized feedback loops. By coordinating the frontend and backend development cycles, I ensured the platform delivered instant, context-aware solutions, helping users resolve complex logic issues while learning the underlying principles.",
+    "role": "Project Lead & Lead Developer",
+    "techStack": [
+      "MERN Stack",
+      "OpenAI API",
+      "Gemini API",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Netlify"
+    ],
+    "challenges": [
+      "Secure user authentication system",
+      "Dynamic dashboard for tracking user progress",
+      "Complete SDLC management",
+      "High performance and scalable codebase",
+      "AI integration and context-aware responses"
+    ],
+    "images": ["/code_mentor_AI.png"],
+    "repo": "",
+    "liveLink": "https://code-mentorai.netlify.app/",
+    "featured": true,
+    "date": "2025",
+    "fullstack": true,
+    "duration": "4 months",
+    "team": "Team"
+  },
+
+  {
+    "slug": "indelhincr-live-website",
+    "title": "Indelhincr.com",
+    "shortDescription": "Professional B2B business platform with responsive design and high-performance optimization.",
+    "intro": "During my internship at Vishal Global Tech, I developed Indelhincr.com, a professional business platform designed to establish a digital footprint for the client. I took the project from a design concept to a fully functional live site, focusing on creating a professional B2B interface that effectively showcases their service portfolio.",
+    "problem": "The client lacked a centralized digital presence, making it difficult to build brand authority or capture online inquiries. The existing process for client onboarding was entirely manual, and there was no mobile-responsive destination for potential partners to view their service offerings or company credentials.",
+    "solution": "I engineered a responsive, high-performance website with a focus on user conversion and intuitive navigation. By implementing a clean UI and integrated lead-capture forms, I streamlined the communication bridge between the client and their customers, ensuring a seamless experience across all device types.",
+    "role": "Frontend Developer & Project Lead",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Performance Optimization"
+    ],
+    "challenges": [
+      "Image optimization for fast load times",
+      "Cross-browser compatibility testing",
+      "End-to-end deployment to production server",
+      "SEO-friendly architecture"
+    ],
+    "images": ["/indelhi.png"],
+    "repo": "",
+    "liveLink": "https://www.indelhincr.com/",
+    "featured": true,
+    "date": "2024",
+    "fullstack": true,
+    "duration": "3 weeks",
+    "team": "Vishal Global Tech"
+  },
+
+  {
+    "slug": "natively-ai-factory",
+    "title": "PatentVaultAI",
+    "shortDescription": "NativelyAI — AI Factory Solution AI/ML API integrated web application developed and submitted for the Lablab.ai / NativelyAI AI Factory Hackathon.",
+    "intro": "Developed for the global Lablab.ai / NativelyAI AI Factory Hackathon (Aug 3–10, 2026), this project delivers an intelligent AI/ML solution built on NativelyAI's API infrastructure. The solution demonstrates high-throughput AI reasoning, responsive frontend components, and low-latency API integration, earning an official Certificate of Completion (Cert ID: CMSR96WA301EPS601VLQJ7N22).",
+    "problem": "Modern AI web applications often suffer from high inference latency, brittle API connections, and cumbersome user workflows when interfacing with multimodal AI/ML pipelines in production.",
+    "solution": "Architected an end-to-end AI-powered web platform powered by NativelyAI and AI/ML APIs. Built an interactive UI with instant response streaming, state persistence, and streamlined API middleware for high-performance reasoning.",
+    "role": "Lead Full-Stack AI Engineer",
+    "techStack": [
+      "NativelyAI",
+      "AI/ML API",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "REST APIs"
+    ],
+    "challenges": [
+      "Real-time streaming integration with AI/ML inference endpoints",
+      "Low-latency prompt orchestration and error-recovery pipelines",
+      "Responsive cross-device interface with real-time state synchronization",
+      "Deploying a production-ready hackathon submission under tight time constraints"
+    ],
+    "images": ["/patentvaultAI.png"],
+    "repo": "",
+    "liveLink": "https://8nfhxwjl86263gq6xpco0ci5h.nativelyai.app/",
+    "featured": false,
+    "date": "2026",
+    "fullstack": true,
+    "duration": "Hackathon (Aug 3–10, 2026)",
+    "team": "Team"
+  },
+
+  {
+    "slug": "track-my-expenses",
+    "title": "Track My Expenses",
+    "shortDescription": "Specialized web application for real-time personal finance management and expense tracking.",
+    "intro": "Developed during my internship at My Job Grow, this project is a specialized web application designed to help users monitor their personal finances in real-time. I built a functional, interactive dashboard that allows for seamless expense logging and category-based tracking to improve financial literacy for users.",
+    "problem": "Many users struggle with overspending due to a lack of immediate visibility into their daily transactions and budget limits. Existing manual methods, like spreadsheets or paper logs, are often cumbersome, inaccessible on the go, and fail to provide instant visual feedback on spending habits.",
+    "solution": "I designed a streamlined, mobile-first application that simplifies financial management through an intuitive 'Add-and-Track' interface. The solution features automated balance calculations, a historical transaction log, and a clean UI that removes the friction from daily expense reporting.",
+    "role": "Full-Stack Developer (Lead)",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+      "Tailwind CSS",
+      "Netlify"
+    ],
+    "challenges": [
+      "Dynamic state management for real-time balance updates",
+      "Local storage integration for data persistence",
+      "Responsive CSS layout for cross-device utility",
+      "Continuous integration deployment"
+    ],
+    "images": ["/TrackMyExpenses.png"],
+    "repo": "",
+    "liveLink": "https://trackmyexpensess.netlify.app/",
+    "featured": true,
+    "date": "2024",
+    "fullstack": true,
+    "duration": "2 months",
+    "team": "Solo Project"
+  },
+
+  {
+    "slug": "ck-ecommerce",
+    "title": "CK — Premium E-Commerce Platform",
+    "shortDescription": "A fully functional premium e-commerce platform with product listings, categories, deals, cart functionality, and a polished shopping experience.",
+    "intro": "CK is a premium e-commerce web application built to deliver a refined, modern shopping experience. The platform features a curated product catalogue spanning Electronics, Mobiles, Computers, Accessories, and Home Appliances — with product ratings, discount badges, cart functionality, and category-based browsing. Designed and built end-to-end as a frontend showcase project, CK demonstrates real-world e-commerce UI patterns with a clean, conversion-focused design.",
+    "problem": "Most e-commerce UI projects built by students look like basic CRUD apps with no design thought. The challenge was to build something that actually looks and feels like a real premium shopping platform — one that a user could open and immediately trust as a legitimate store.",
+    "solution": "Built a multi-page e-commerce platform with a hero section, featured products grid, category explorer, deals page, and about page. Products include real images, brand names, star ratings, review counts, discount percentages, and dual CTA buttons (Add to Cart / Buy Now). The UI uses a premium black and white color scheme with accent colors, clean typography, and trust signals like '4.8/5 from 10k+ reviews', free shipping, secure payment, and 24/7 support badges.",
+    "role": "Solo Developer",
+    "techStack": [
+      "Next.js",
+      "Supabase (PostgreSQL)",
+      "Tailwind CSS",
+      "v0.dev",
+      "Vercel"
+    ],
+    "challenges": [
+      "Designing a premium, conversion-focused UI that looks like a real e-commerce store",
+      "Building a multi-page structure with Home, Categories, Deals, and About pages",
+      "Implementing product cards with ratings, discount badges, brand tags, and dual CTAs",
+      "Cart state management across the application",
+      "Responsive layout that works across mobile, tablet, and desktop",
+      "Curating realistic product data with pricing, discounts, and imagery"
+    ],
+    "images": ["/ck.png"],
+    "repo": "https://github.com/cherag-16/ck",
+    "liveLink": "https://ck-e-commerce.vercel.app/",
+    "featured": false,
+    "date": "2025",
+    "fullstack": true,
+    "duration": "1-2 weeks",
+    "team": "Solo"
+  },
+
+  {
+    "slug": "real-time-chat-platform",
+    "title": "Chatbox UI",
+    "shortDescription": "Frontend chat interface with real-time messaging and presence.",
+    "problem": "Teams need low-latency chat with presence and reliable delivery.",
+    "role": "Frontend + Realtime UX",
+    "techStack": ["React", "Socket.IO", "Redis", "Node.js"],
+    "challenges": [
+      "Realtime presence across nodes",
+      "Message ordering",
+      "Optimizing bandwidth"
+    ],
+    "solution": "Socket.IO with Redis pub/sub for presence; optimistic UI updates and replay on reconnect.",
+    "images": ["/chatbox.png"],
+    "repo": "",
+    "liveLink": "https://chatbox-frontend.netlify.app/",
+    "featured": false,
+    "date": "2024"
+  },
+
+  {
+    "slug": "numerology-calculator",
+    "title": "Hindu Vedic Numerology Calculator",
+    "shortDescription": "A spiritual numerology calculator using the ancient Chaldean system to reveal insights from names and mobile numbers.",
+    "intro": "The Hindu Vedic Numerology Calculator is a unique web application that merges ancient Chaldean numerology with modern web technology. Users can discover their spiritual numerology number by entering their name or mobile number — the app then calculates and reveals deep spiritual insights based on Vedic wisdom. A niche, creative project that stands out in any portfolio.",
+    "problem": "Numerology is deeply rooted in Indian culture but there are very few clean, modern digital tools that make Vedic numerology accessible. Existing tools are outdated, hard to use, or lack depth in their calculations and explanations.",
+    "solution": "Built a focused, beautifully designed calculator that implements the Chaldean numerology system for both names and mobile numbers. The app provides instant spiritual number calculations with meaningful insights, wrapped in an aesthetic interface that respects the cultural and spiritual context of the subject.",
+    "role": "Solo Developer",
+    "techStack": ["React", "Next.js", "JavaScript", "Tailwind CSS", "Vercel"],
+    "challenges": [
+      "Accurately implementing the Chaldean numerology algorithm for name and number calculation",
+      "Designing a UI that feels spiritual and respectful of Hindu/Vedic aesthetics",
+      "Handling edge cases in number and name inputs",
+      "Making results meaningful and insightful, not just a number output"
+    ],
+    "images": ["/name_calculator.png"],
+    "repo": "https://github.com/cherag-16/numerology-calculator",
+    "liveLink": "https://numerology-name-mobile-calculator.vercel.app/",
+    "featured": false,
+    "date": "2025",
+    "fullstack": false,
+    "duration": "1-2 weeks",
+    "team": "Solo"
+  },
+
+  {
+    "slug": "weather-forecast",
+    "title": "Weather Forecast App",
+    "shortDescription": "A real-time weather forecasting web app delivering accurate weather data and forecasts for any location worldwide.",
+    "intro": "Weather Forecast is a clean, responsive web application that provides real-time weather information for any city or location. Built with a focus on simplicity and accuracy, it fetches live data to display current conditions, temperature, humidity, wind speed, and multi-day forecasts in an intuitive interface.",
+    "problem": "Most weather apps are cluttered with ads and unnecessary features. Users just want quick, accurate weather data for any location without friction — a clean interface that loads fast and works on any device.",
+    "solution": "Built a lightweight, fast-loading weather app that integrates with a live weather API to fetch real-time data. The UI is minimal and focused — users simply search a city and instantly get all essential weather details including current conditions and forecast trends.",
+    "role": "Solo Developer",
+    "techStack": ["HTML", "CSS", "JavaScript", "Weather API", "Netlify"],
+    "challenges": [
+      "Integrating and handling real-time API responses efficiently",
+      "Graceful error handling for invalid city names or API failures",
+      "Responsive layout across all screen sizes",
+      "Clean UI with dynamic background/icon changes based on weather conditions"
+    ],
+    "images": ["/weather.png"],
+    "repo": "https://github.com/cherag-16/weather-forecast",
+    "liveLink": "https://weather-forcastss.netlify.app/",
+    "featured": false,
+    "date": "2024",
+    "fullstack": false,
+    "duration": "1-2 weeks",
+    "team": "Solo"
+  }
+]
